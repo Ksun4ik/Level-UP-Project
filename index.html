@@ -10,13 +10,23 @@
 <!-- connect css and reset files -->
     <link rel ="stylesheet" href="/css/reset.css">
     <link rel ="stylesheet" href="/css/style.css">
+
+
+    <!-- 
+    for burger:
     
+    <link rel ="stylesheet" href="/css/burger.css">
+    <input type="checkbox" class="menu-trigger">
+    <div class="overlay"></div> -->
+
+
     <title>Level UP</title>
 </head>
 
 <body>
     <div class="wrapper"></div>
-    
+
+
 
     <header class="head">
         <div class="darker">
@@ -34,79 +44,170 @@
                 <h1 class="head_title">ЧЕРНАЯ СТРЕЛА</h1>
                 <p class="head_description">Управляющая компания нового уровня</p>
                 <h2 class="head_service">Оказываем премиум-услуги для жильцов <br>с применением современных технологий</h2>
-
             </nav>
         </div>
     </header>
 
+
+
+    
     <div class="baseInfo">
-        <h3 class="baseInfo_title">ЧЕРНАЯ СТРЕЛА</h3>
-            <div class="baseInfo_group">
-                <ul2>
-                    <li style="flex:1"><img src="/img/settings_ek.png" alt="settings logo"></li>
-                    <li style="flex:1"><img src="/img/bar-graph.png" alt="graph logo"></li>
-                    <li style="flex:1"><img src="/img/friends-front.png" alt="clients logo"></li>
-                </ul2>
-        <h4 class="baseInfo_title">ОБЪЕКТЫ</h4>
-          </div>
-</div>
+
+
+<!-- 3 white info blocks -->
+        <div class="blockWrap">
+            <div class="infoBlock"><div class="blockOne">Внести показания счетчиков <br>и оплатить квитанции</div></div>
+            <div class="infoBlock"><div class="blockOne">Заказать дополнительные <br>услуги</div></div>
+            <div class="infoBlock"><div class="blockOne">Начать сотрудничество</div></div>
+        </div>
+
+        <!-- title 1 -->
+    <div class="baseInfo_title1">
+            <h3>ЧЕРНАЯ СТРЕЛА</h3>
+    </div>
+
+    <div class="container">
+
+        <div class="infoColumn">
+            <div class="img"><img src="img/settings_ek.png" alt="   " width="92px" height="92px" /></div>
+                <div class="text">Самые современные технологии в управлении домами</div>
+        </div>
+
+        <div class="infoColumn">
+            <div class="img"><img src="img/bar-graph.png" alt="   " width="92px" height="92px" ></div>
+                <div class="text">Только проверенные застройщики</div>
+        </div>
+
+        <div class="infoColumn">
+            <div class="img"><img src="img/friends-front.png" alt="   " width="110px" height="92px" ></div>
+                <div class="text">Круглосуточный клиентский сервис</div>
+        </div>
+
+    </div>
+
+        <!-- title 2 -->
+        <div class="baseInfo_title2">
+            <h4>ОБЪЕКТЫ</h4>
+        </div>
+
+    </div>
+
     <div class="address">
+        <div class="addressContainer">
 
+            <div class = "darker">
+            <div class="shortImg"><img src="img/1.png" alt="   " width="555px" height="405px" >
+                <h5 class="photoLabel">ЛЕСНОЙ ПР., 26</h5>
+            </div></div>
 
+            <div class = "darker">
+            <div class="LongImg"><img src="img/2.png" alt="   " width="910px" height="405px" >
+                <h5 class="photoLabel">НЕВСКИЙ ПР., 170</h5>
+            </div></div>
+
+            <div class = "darker">
+            <div class="LongImg"><img src="img/3.png" alt="   " width="910px" height="405px" >
+                <h5 class="photoLabel">Новгородская ул., 19</h5>
+            </div></div>
+
+            <div class = "darker">
+            <div class="shortImg"><img src="img/4.png" alt="   " width="555px" height="405px" >
+                <h5 class="photoLabel">пр. медиков, 29</h5>
+            </div></div>
+
+        </div>
     </div>
 
+    <!-- Contacts -->
 
-    <div class="contacts">
-        <p3 class="contact_us">КОНТАКТЫ</p3>
-            <p4 class="contact_questions">Если у вас есть какие-либо вопросы  по  работе Черной Стрелы,<br>
+<div class="contacts">
+    <p3 class="contact_us">КОНТАКТЫ</p3>
+        <p4 class="contact_questions">Если у вас есть какие-либо вопросы  по  работе Черной Стрелы,<br>
                 дополнительным услугам или вы не нашли то, что искали.</p4>
-                <p5 class="contack_waiting_time">* отвечаем, в среднем, за 5 минут</p5>
-<form>
-    <table>
-            <tr>
-                <td>
-                    <label-name="First-and-last-name">Как к вам обращаться?</label>
-                        <br><br>
-                            <textarea name="First-and-last-name" rows="2" cols="40">Ваше имя</textarea>
-                </td>
-            </tr>
+             <p5 class="contact_waiting_time">* отвечаем, в среднем, за 5 минут</p5>
 
-            <tr>
-                <td>
-                    <label name="Email">Электронная почта</label>
-                        <br><br>
-                            <textarea name="Email" rows="2" cols="40">belka23@gmail.com</textarea>
-                </td>
-            </tr>
 
-            <tr>
-                <td>
-                    <label name="information">Ваше сообщение</label>
-                        <br><br>
-                            <textarea name="information" rows="5" cols="40">Введите текст</textarea>
-                </td>
-            </tr>
+    <div class="form">
+        <form action="contactInfo">
 
-            <tr>
-                <td>
-                    <input type="checkbox" name="checkbox">я согласен (-сна) с политикой обработки персональных <br> данных
-                    
-                </td>
-            </tr>
-                        <tr>
-                            <td>
-                                <button type="submit" style="background-color:transparent; border-color:transparent;">
-                                        <img src="/img/bt.png">
-                                </button>
-                            </td>
-                        </tr>
-    </table>
-</form>
+    <div class="info">Как к вам обращаться?</div>
+        <div class="infoBox"><input type="text" placeholder="Ваше имя"></div>
+
+    <div class="info">Электронная почта</div>
+        <div class="infoBox"><input type="text" placeholder="belka23@gmail.com"></div>
+
+    <div class="info">Ваше сообщение</div>
+        <div class="textArea"><input type="text" placeholder="Введите текст"></input></div>
+
+    <div class="checkBox">
+        <input type="checkbox" name="checkbox"> я согласен (-сна) с политикой обработки персональных <br> данных
     </div>
+        </form>
+</div>
+
+<!-- Button -->
+
+    <div class="buttonBlock">
+        <button type="submit" class="btn">ОПРАВИТЬ</button>
+    </div>
+</div>
 
 
+    <!-- Footer -->
 
     <footer class="footer">
+
+        <div class="leftSide">
+            <div class="name">ЧЕРНАЯ СТРЕЛА</div>
+            <div class="logo">
+                <ul>
+                    <li><a href="http://vk.com"><img src="img/social1.png" alt="   " width="43px" height="43px" ></a></li>
+                    <li><a href="http://instagram.com"><img src="img/social2.png" alt="   " width="43px" height="43px" ></a></li>
+                    <li><a href="http://facebook.com"><img src="img/social3.png" alt="   " width="43px" height="43px" ></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rightSide">
+
+            <div class="column1">
+                <ul>
+                    <li>Компания</li>
+                    <li>Услуги</li>
+                    <li>Информация</li>
+                    <li>Новости</li>
+                    <li>FAQ</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+
+            <div class="column2">
+                <ul>
+                    <li>Список домов</li>
+                    <li>Раскрытие информации</li>
+                    <li>Вакансии</li>
+                    <li>Сотрудничество</li>
+                    <li>Тендеры</li>
+                    <li>Часы приема</li>
+                </ul>
+            </div>
+
+
+            <div class="column3">
+                <ul>
+                    <li>Тарифы</li>
+                    <li>Полезные телефоны и адреса</li>
+                    <li>Информация о выполняемых работах</li>
+                    <li>Гарантийные случаи</li>
+                    <li>Памятки</li>
+                    <li>Шаблоны</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
 
 
     </footer>
