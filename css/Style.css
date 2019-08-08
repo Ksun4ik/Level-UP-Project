@@ -173,21 +173,35 @@ h2{
     width: 100%;
     height: 100%;
     display: flex;
-    margin:0;
-    padding:0;
-    
+
 }
 
-.shortImg{
+.shortImg1{
     
     display: flex;
+    flex:1;
     flex-wrap: wrap;
 }
 
 
-.LongImg{
+.LongImg1{
     display: flex;
     flex-wrap: wrap;
+    flex:2;
+
+}
+.shortImg2{
+    
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+
+.LongImg2{
+    display: flex;
+    flex-wrap: wrap;
+    flex:2;
 
 }
 
@@ -197,15 +211,18 @@ h2{
     background: rgba(0, 0, 0, 0.63);
 }
 
-.photoLabel{
 
-    color: #FFFFFF;
+
+.photoLabel a {
+
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
-    }
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 
 
@@ -247,42 +264,42 @@ p5{
 
 /* Contact form */
 
-.form{
-    padding-top:62px;
-    font-weight: 400;
-    color: #FFFFFF; 
-    display: flex;
-    flex:1;
-    justify-content: center;
-
-}
 
 .contactInfo{
     display: flex;
     flex:1;
-    justify-content: center;
-    position: relative;
-    
+    flex-direction: column;
+    padding-top:62px;
+    font-weight: 400;
+    color: #FFFFFF; 
 }
+
 .info{
     display:flex;
+    border: 1px solid red;
+    flex:1;
+    justify-content: center;
     
 }
 .infoBox{
-    width: 467px;
+
     height: 49px;
     display:flex;
     margin-bottom: 29px;
     margin-top: 14px;
-
+    border: 1px solid red;
+    flex:1;
+    justify-content: center;
 }
 
 
 .textArea{
-    width: 467px;
     height: 136px;
     display:flex;
-
+    margin-top: 14px;
+    border: 1px solid red;
+    justify-content: center;
+    
 }
 .checkBox{
     display:flex;
@@ -298,7 +315,6 @@ p5{
 
 }
 .btn{
-
     background-color: #528290;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -312,6 +328,7 @@ p5{
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.03em;
+
 }
 
 
