@@ -8,6 +8,27 @@ body{
     /* background-color: red; */
 }
 
+.watermark{
+    width:100%;
+    height:100%;
+    color:antiquewhite;
+    font-size:76px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+}
+
+@media print{
+    .watermark{
+        display: flex;
+    }
+}
+
+
 /* Header */
 
 
@@ -81,7 +102,13 @@ h2{
 .burger{
     display:none;
 }
+.mobile_logo{
+    display: none;
+}
+
+
                     /* Mobile */
+
 
 
 @media (max-width: 1024px) {
@@ -91,23 +118,57 @@ h2{
 }
 
 .head_title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding-top: 65px;
+}
 
-font-weight: 600;
-font-size: 25px;
-line-height: 30px;
-display: flex;
-align-items: center;
-letter-spacing: 0.02em;
-text-transform: uppercase;
+.mobile_logo{
+    display: inline-block;
+    width: 31px;
+    height: 34px;
+    margin-right: 20px;
+    float: right;
+    padding-top: 65px;
+}
+.title p{
+    padding-top:114px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.title h2{
+    display: none;
 }
 
 .menu_logo{
-    display: flex;
+    display: inline-block;
+}
+.burger{
+    margin-right: 13px;
+    display: inline-block;
 }
 
+/*     */
+/* как разместить бургер и синего человека на уровне черной стрелы? */
+/*     */
+
+.burger > span{
+    width: 50px;
+    height: 2px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 8px;
 }
-
-
+}
 
 
 
