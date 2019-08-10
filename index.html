@@ -56,8 +56,8 @@
 
 <!-- 3 white info blocks -->
         <div class="blockWrap">
-            <div class="infoBlock"><div class="blockOne">Внести показания счетчиков <br>и оплатить квитанции</div></div>
-            <div class="infoBlock"><div class="blockOne">Заказать дополнительные <br>услуги</div></div>
+            <div class="infoBlock"><div class="blockOne">Внести показания счетчиков и оплатить квитанции</div></div>
+            <div class="infoBlock"><div class="blockOne">Заказать дополнительные услуги</div></div>
             <div class="infoBlock"><div class="blockOne">Начать сотрудничество</div></div>
         </div>
 
@@ -94,27 +94,30 @@
 
     <div class="address">
         <div class="addressContainer">
+                
+            <div class="address1">
+                <div class="darker"> 
+                    <h5 class="photoLabel"><a href="http://ya1.ru">ЛЕСНОЙ ПР., 26</a></h5>
+                </div>
+            </div>
 
-            <div class = "darker">
-            <div class="shortImg1"><img src="img/1.png" alt="   " width="555px" height="405px" >
-                <h5 class="photoLabel"><a href="http://ya1.ru">ЛЕСНОЙ ПР., 26</a></h5>
-            </div></div>
+            <div class="address2">
+                <div class="darker">
+                    <h5 class="photoLabel"><a href="http://ya1.ru">НЕВСКИЙ ПР., 170</a></h5>
+                </div>
+            </div>
 
-            <div class = "darker">
-            <div class="LongImg1"><img src="img/2.png" alt="   " width="910px" height="405px" >
-                <h5 class="photoLabel"><a href="http://ya1.ru">НЕВСКИЙ ПР., 170</a></h5>
-            </div></div>
+            <div class="address3">
+                <div class="darker">
+                    <h5 class="photoLabel"><a href="http://ya1.ru">Новгородская ул., 19</a></h5>
+                </div>
+            </div>
 
-            <div class = "darker">
-            <div class="LongImg2"><img src="img/3.png" alt="   " width="910px" height="405px" >
-                <h5 class="photoLabel"><a href="http://ya1.ru">Новгородская ул., 19</a></h5>
-            </div></div>
-
-            <div class = "darker">
-            <div class="shortImg2"><img src="img/4.png" alt="   " width="555px" height="405px" >
-                <h5 class="photoLabel"><a href="http://ya1.ru">пр. медиков, 29</a></h5>
-            </div></div>
-
+            <div class="address4">
+                <div class="darker">
+                    <h5 class="photoLabel"><a href="http://ya1.ru">пр. медиков, 29</a></h5>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -128,28 +131,35 @@
 
     <form action="login process.php" method="post" class="STYLE-NAME">
 
-            <div class="contactInfo">
-    <div class="info">Как к вам обращаться?</div>
-        <div class="infoBox"><input type="text" placeholder="Ваше имя"></div>
+    <div class="contactInfo">
 
-    <div class="info">Электронная почта</div>
-        <div class="infoBox"><input type="text" placeholder="belka23@gmail.com"></div>
+            <div class="username">
+                <p>Как к вам обращаться?</p></div>
+                    <div class="user"><input type="text" placeholder="Ваше имя">
+            </div>
 
-    <div class="info">Ваше сообщение</div>
-        <div class="textArea"><input type="text" placeholder="Введите текст"></input></div>
+            <div class="email">
+                <p>Электронная почта</p></div>
+                <div class="user"><input type="email" name="mail" id="email" onkeyup="checkParams()" placeholder="belka23@gmail.com" required>
+            </div>
+                
+            <div class="comment">
+                <p>Ваше сообщение</p></div>
+                <div class="usertext"><textarea name="message" placeholder="Введите текст"></textarea>
+            </div>
+</div>
 
     <div class="checkBox">
-        <input type="checkbox" name="checkbox"> я согласен (-сна) с политикой обработки персональных <br> данных
+        <p><input type="checkbox" name="checkbox" value="house" checked="checked"> я согласен (-сна) с политикой обработки персональных данных</p>
     </div>
-</div>
+
 <!-- Button -->
 
-    <div class="buttonBlock">
-        <button type="submit" class="btn">ОПРАВИТЬ</button>
+        <div class="buttonBlock">
+            <button type="submit" class="btn">ОПРАВИТЬ</button>
     </div>
-            </div>
-        </form>
-
+    </form>
+</div>
 
 
     <!-- Footer -->
@@ -159,7 +169,7 @@
         <div class="leftSide">
             <div class="name">ЧЕРНАЯ СТРЕЛА</div>
             <div class="logo">
-                <ul>
+                <ul class="logo1">
                     <li><a href="http://vk.com"><img src="img/social1.png" alt="   " width="43px" height="43px" ></a></li>
                     <li><a href="http://instagram.com"><img src="img/social2.png" alt="   " width="43px" height="43px" ></a></li>
                     <li><a href="http://facebook.com"><img src="img/social3.png" alt="   " width="43px" height="43px" ></a></li>
