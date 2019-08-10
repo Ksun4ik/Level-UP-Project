@@ -1,3 +1,4 @@
 # Level-UP-Project
 
-please donate here:
+Hello!
+Have a nice day.
