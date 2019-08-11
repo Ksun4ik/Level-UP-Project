@@ -730,3 +730,65 @@ textarea{
     justify-content: space-between;
     justify-content: space-around;
 }
+
+.contact_phone, .list_mobile{
+    display:none;
+}
+
+@media (max-width: 1024px) {
+
+.footer{
+    height: 514px;
+}
+.leftSide{
+    padding-left:0px;
+
+}
+.name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top:56px;
+    padding-left: 22px;
+}
+
+
+.contact_phone{
+    padding-top: 22px;
+    padding-left: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #87D9F1;
+    
+}
+
+.rightSide{
+    display: none;
+}
+
+.list_mobile{
+    padding-top: 32px;
+    display: flex;
+    padding-left: 22px;
+    flex:1;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.column2{
+    padding-left:55px;
+  }
+
+.logo{
+    padding-top: 34px;
+    padding-left: 22px;
+}
+}
